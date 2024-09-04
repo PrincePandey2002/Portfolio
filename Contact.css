@@ -1,0 +1,185 @@
+.Contact{
+    color: black;
+    height: 60rem;
+    width: 100vw;
+    margin-top: 4rem;
+    /* background-color: yellow; */
+    /* background-image: url('../assets/contact.webp'); */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.contactHead{
+    margin-top: 4rem;
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+.contactUnderline{
+    height: 0.3rem;
+    width: 10vw;
+    border-radius: 0.3rem;
+    background-color: #ce00ff;
+}
+
+.contactContainer{
+    height: 40rem;
+    width: 100vw;
+    /* background-color: red; */
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconWala{
+    height: 30rem;
+    width: 30vw;
+    margin-left: 4rem;
+    margin-top: 0.8rem;
+    /* background-color: blue; */
+}
+
+.iconCollection{
+    height: 5rem;
+    width: 25vw;
+    /* background-color: yellow; */
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin-top: 0.41rem; */
+    /* justify-content: center; */
+}
+
+.touch{
+    /* font-size:1rem; */
+    font-weight: 500;
+    color:rgb(124, 117, 117);
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    /* text-align: center; */
+    /* margin-left: 7rem; */
+
+}
+.iconCollection a{
+    text-decoration: none;
+    /* margin-top: 0.3rem; */
+    /* padding: 1rem; */
+}
+.item{
+    display: flex;
+    margin-top: 0.4rem;
+}
+
+
+/* For LinkedIn Icon */
+.linkedin{
+    font-size: 1.5rem;
+    color: blue;
+}
+#lin{
+    color: blue;
+}
+
+
+.gitHub{
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+    color: purple;
+}
+#github{
+    /* font-size: 0.8rem; */
+    padding-left: 0.2rem;
+    color: purple;
+}
+
+.mainIcon{
+    height: 20rem;
+    width: 30vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.mainList{
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    width: 30vw;
+    /* background-color: yellow; */
+
+}
+
+.person{
+    /* height: 4rem;
+    width: 1vw; */
+    font-size: 3rem;
+    color: rgb(18, 167, 222);
+}
+#prince{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.email{
+    font-size: 3rem;
+    color:rgb(18, 167, 222) ;
+}
+
+#mail{
+    font-size: 1.5rem;
+    color: black; ;
+}
+
+.location{
+    font-size: 3.2rem;
+    color: rgb(18,167,222);
+}
+#india{
+    font-size: 1.5rem;
+    color: black;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .contactHead{
+        font-size: 2.2rem;
+    
+    }
+    .contactUnderline{
+        height: 0.3rem;
+        width: 10vw;
+        border-radius: 0.3rem;
+        background-color: #ce00ff;
+    }
+    .contactContainer{
+        display: grid;
+        /* grid-template-columns: 1fr 1fr; */
+        /* gap: 1rem; */
+        height: 100rem;
+        width: 100vw;
+        padding: 0 3rem;
+        /* background-color: red; */
+    }
+    .iconWala{
+        height: 24rem;
+        width: 30vw;
+        margin-left: 4rem;
+        margin-top: 0.8rem;
+        /* background-color: blue; */
+    }
+    #prince{
+        font-size: 1.4rem;
+    }
+    #mail{
+        font-size: 1.4rem;
+    }
+    .email{
+        /* background-color: red; */
+    }
+}

@@ -1,0 +1,300 @@
+.skills{
+    background-image: url('../assets/image.gif');
+    /* background-color: rgb(13,13,13); */
+    /* color: black; */
+    height: 50rem;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+
+.skillHeading{
+
+    /* height: 40rem;
+    width: 10vw; */
+    margin-left: 37rem;
+    /* background-color: blue; */
+    font-size: 1.7rem;
+    /* /* margin-top: 2rem; */
+    padding-top: 4rem; 
+    /* background-color: red; */
+}
+
+.skillHeadingUnderline{
+    height: 0.4rem;
+    color: black;
+    width: 10vw;
+    background-color: #ce00ff;
+    margin-left: 39rem;
+    border-radius: 0.5rem;
+    /* margin-top: 2rem; */
+}
+
+
+.skillDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.skillContainer{
+    height: 28rem;
+    width: 50vw;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    /* background-color: blue; */
+}
+
+.skillsDescription{
+    height: 25rem;
+    width: 50vw;
+    margin-top: 1rem;
+    padding-top: 6rem;
+
+}
+
+.skillLine{
+    height: 28rem;
+    width: 40vw;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.per{
+    width: 35vw;
+    /* background-color: orange; */
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.percentage{
+    font-size: 0.9rem;
+    color: white;
+}
+
+.per h3{
+    font-size: 1rem;
+    color: rgb(119, 111, 111);
+}
+
+.shower{
+    height: 0.2rem;
+    width: 35vw;
+    margin-left: 6rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#cpp{
+    height: 0.2rem;
+    width: 33vw;
+    margin-left: 6rem;
+    background-color:aqua;
+    border-radius: 0.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+#dev{
+    height: 0.2rem;
+    width: 31vw;
+    margin-left: 6rem;
+    background-color:aqua;
+    border-radius: 0.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+#javascript{
+    height: 0.2rem;
+    width: 29vw;
+    margin-left: 6rem;
+    background-color:aqua;
+    border-radius: 0.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+#cpj{
+    height: 0.2rem;
+    width: 29vw;
+    margin-left: 6rem;
+    background-color:aqua;
+    border-radius: 0.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+#tr{
+    height: 0.2rem;
+    width: 27vw;
+    margin-left: 6rem;
+    background-color:aqua;
+    border-radius: 0.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+.skillHead{
+    height: 4rem;
+    width: 40vw;
+    /* background-color: blue; */
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    color: aqua;
+}
+
+.skillsandexperience{
+    width: 40vw;
+    height: 20rem;
+    /* background-color: red; */
+    /* font-weight: 200; */
+}
+
+.skillsandexperience p{
+    font-weight: 400;
+}
+
+.knowMore{
+    background-color: #ce00ff;
+    height: 4rem;
+    width: 9vw;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-weight: 500;
+    color: white;
+    transition: transform 0.8s ease-in,background-color 0.5s ease-in,color 0.5s ease-in;
+    cursor: pointer;
+    
+}
+
+.knowMore:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.06);
+
+}
+
+.skillPara{
+    line-height: 2rem;
+    font-weight: 350;
+    font-size: 0.9rem;
+}
+
+
+/* For Tablets */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+    .skillHeading{
+        margin-left: 20rem;
+        font-size: 1.2rem;
+        padding-top: 2rem; 
+    }
+    .skillHeadingUnderline{
+        margin-left: 22rem;
+    }
+    .skillDetail{
+        justify-content: space-between;
+    }
+
+    .skillLine{
+        height: 28rem;
+        width: 40vw;
+        /* margin-left: 1rem; */
+        margin-top: 1rem;
+        /* background-color: yellow; */
+    }
+    .shower{
+        margin-left: 2rem;
+        /* padding-right: 2rem; */
+        /* background-color: white;
+        border-radius: 0.5rem;
+        position: absolute;
+        z-index: 1; */
+        /* background-color: red; */
+    
+    }
+    
+#cpp{
+    margin-left: 2rem;
+}
+
+
+
+#dev{
+    margin-left: 2rem;
+}
+
+#javascript{
+    margin-left: 2rem;
+}
+
+#cpj{
+    margin-left: 2rem;
+}
+
+#tr{
+    margin-left: 2rem;
+
+}
+.per{
+
+}
+.per{
+    margin-left: 2rem;
+}
+.skillHead{
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    color: aqua;
+}
+
+.skillsandexperience{
+    width: 37vw;
+    height: 18rem;
+    /* background-color: red; */
+  
+}
+
+.skillsandexperience p{
+    font-weight: 400;
+}
+
+.knowMore{
+    height: 3rem;
+    width: 15vw;
+    font-size: 1rem;
+    
+}
+
+
+.skillPara{
+    line-height: 1.5rem;
+    font-weight: 350;
+    font-size: 0.8rem;
+}
+    
+}

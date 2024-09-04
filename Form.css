@@ -1,0 +1,66 @@
+.Form{
+    height: 30rem;
+    width: 50vw;
+    /* background-color: yellow; */
+}
+
+.msg{
+    color: rgb(124, 117, 117);
+    margin-bottom: 1rem;
+}
+
+.name{
+    font-size: 1.2rem;
+    padding: 0.6rem 0;
+    text-indent: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width:36VW;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.formSubmit{
+    height: 3rem;
+    width: 8vw;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #cc00ff;
+    border-radius: 0.5rem;
+    border: none;
+    transition: transform 0.5s ease-in,background-color 0.5s ease-in,color 0.5s ease-in;
+
+}
+
+.formSubmit:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .Form{
+        margin-left: 4rem;
+        margin-top: 0;
+    }
+    .name{
+        width:85vw;
+        /* margin-left: 5rem; */
+        /* margin-top: 1rem; */
+    }
+
+    .formSubmit{
+        height: 3rem;
+        width: 15vw;
+        margin-left: 2rem;
+        font-size: 1.2rem;
+    
+    }
+    
+}
