@@ -1,0 +1,129 @@
+.Hero{
+    color: white;
+    height: 48rem;
+    /* background-color: red; */
+    width: 100vw;
+    display: flex;
+    background-image: url('../assets/image.gif');
+    /* flex-direction: row; */
+}
+
+.left{
+    height: 40rem;
+    width: 50vw;
+    /* background-color: blue; */
+    padding-top: 15rem;
+    padding-left: 8rem;
+}
+.para{
+    font-size: 1.3rem;
+}
+.animatedText{
+    color: #ce00ff;
+    font-size: 2rem;
+}
+.left-heading{
+    font-size: 3rem;
+}
+
+.left-heading h1 span{
+    color: #ce00ff;
+}
+
+.stack{
+    display: flex;
+    justify-content:stretch;
+}
+.stack h1{
+    font-size: 1.5rem;
+    margin-right: 0.6rem;
+}
+
+.stack span{
+    color: #ce00ff;
+    font: 2rem;
+    text-decoration: underline;
+}
+
+.image{
+    height: 35rem;
+    /* border: 2px dotted #ce00ff; */
+    /* width: 30rem; */
+    /* margin-top: 1rem; */
+    position: relative;
+    z-index: 1;
+    padding-top: 4rem;
+    padding-left: 6rem;
+    border-radius: 1rem;
+    filter: drop-shadow(1px 1px 20px rgb(163, 160, 160));
+} 
+
+.hireMe{
+    height: 3.7rem;
+    width: 8vw;
+    background-color: #ce00ff;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 0.3rem;
+    transition: transform 0.8s ease-in,background-color 0.5s ease-in,color 0.5s ease-in;
+}
+
+.hireMe:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    color: black;
+    background-color: white;
+}
+
+
+
+/* For Tablet Screen */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    
+    .left{
+        height: 40rem;
+        width: 50vw;
+        padding-top: 15rem;
+        padding-left: 4rem;
+    }
+    .image{
+        height: 26rem;
+        position: relative;
+        z-index: 1;
+        padding-top: 5rem;
+        padding-left: 3rem;
+        border-radius: 1rem;
+    } 
+    .para{
+        font-size: 1rem;
+    }
+    .stack{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+
+    }
+    .stack h1{
+        font-size: 1rem;
+        color: rgb(181, 178, 178);
+    }
+    .animatedText{
+        color: #ce00ff;
+        font-size: 1.4rem;
+    }
+    .left-heading{
+        font-size: 1.4rem;
+    }
+
+    .hireMe{
+        height: 3rem;
+        width: 12vw;
+        background-color: #ce00ff;
+        font-size: 1rem;
+       
+    }
+    
+}
