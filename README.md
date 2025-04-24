@@ -15,14 +15,6 @@ The portfolio serves as a hub where anyone can:
 
 ---
 
-
-To create this folder:
-1. Go to your project root.
-2. Create a new folder named `screenshots`.
-3. Save your `desktop.png` and `mobile.png` inside it.
-
----
-
 ## 📌 Features
 
 - **Animated Hero Section** – Eye-catching welcome message and “Hire Me” CTA.
@@ -35,24 +27,21 @@ To create this folder:
 ---
 
 ## 📸 Screenshots 
--**Hero Section**
+- **Hero Section**
 
 ![Hero Section](src/components/assets/PortfolioHero.png)
 
--**About Section**
-![About Section](src\components\assets\PotfolioAbout.png)
+- **About Section**  
+![About Section](src/components/assets/PotfolioAbout.png)
 
--**Skills Section**
+- **Skills Section**  
+![Skills Section](src/components/assets/PortfolioSkills.png)
 
-![Skill Section](src\components\assets\PortfolioSkills.png);
+- **Projects Section**  
+![Projects Section](src/components/assets/PortfolioProject.png)
 
--**Projects Sections**
-
-![Project Section](src\components\assets\PortfolioProject.png);
-
--**Contact Me**
-
-![Contact Me](src\components\assets\PortfolioContact.png)
+- **Contact Me**  
+![Contact Me](src/components/assets/PortfolioContact.png)
 
 ## 🧠 What I Learned
 
